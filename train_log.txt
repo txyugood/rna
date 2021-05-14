@@ -1,0 +1,16 @@
+2021-05-14 16:57:02.322246
+# python3 src/main.py train --model-path-base model
+# Training set contains 4750 Sequences.
+# Validation set contains 250 Sequences.
+# Paddle: Using device: CUDAPlace(0)
+# Initializing model...
+initializing vacabularies... done.
+Sequence(4): ['A', 'C', 'G', 'U']
+Brackets(3): ['(', ')', '.']
+# Checking validation 10 times an epoch (every 475 batches)
+# Epoch 1 starting.
+epoch 1 batch 1 processed 1 batch-loss 0.2152 epoch-elapsed 0h00m00s total-elapsed 0h00m05s 
+epoch 1 batch 2 processed 2 batch-loss 0.2361 epoch-elapsed 0h00m00s total-elapsed 0h00m05s 
+epoch 1 batch 3 processed 3 batch-loss 0.2006 epoch-elapsed 0h00m00s total-elapsed 0h00m05s 
+epoch 1 batch 4 processed 4 batch-loss 0.2285 epoch-elapsed 0h00m00s total-elapsed 0h00m06s 
+epoch 1 batch 5 processed 5 batch-loss 0.1932 epoch-elapsed 0h00m01s total-elapsed 0h00m06s 
